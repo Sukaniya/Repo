@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("red[**Application to find the largest of 3 numbers**]")
+st.markdown('red[**Application to find the largest of 3 numbers**]')
 
 num1 = st.number_input("Enter the first number")
 num2 = st.number_input("Enter the second number")
