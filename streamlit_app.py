@@ -23,4 +23,5 @@ def findLargest(num1, num2, num3):  #user-defined function
 maximum = findLargest(num1, num2, num3)
 
 # display result
-st.markdown(":blue[**The largest number is **]", maximum)
+st.markdown(':blue[**The largest number is: **]')
+st.write(maximum)
