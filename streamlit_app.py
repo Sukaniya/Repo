@@ -23,5 +23,5 @@ maximum = findLargest(num1, num2, num3)
 
 # display result
 
-st.markdown('<h4 style='color:blue;'> The largest number is: </h4>' , unsafe_allow_html=True)
+st.markdown('<h4 style=color:blue;'> The largest number is: </h4>' , unsafe_allow_html=True)
 st.write(maximum)
