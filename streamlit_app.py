@@ -1,6 +1,5 @@
 import streamlit as st
-
-st.markdown(':red[**Application to find the largest of 3 numbers**]')
+st.markdown('<h1 style='text-align: center; color: red;'> Application to find the largest of 3 numbers</h1>',unsafe_allow_html=True)
 
 num1 = st.number_input("Enter the first number")
 num2 = st.number_input("Enter the second number")
@@ -23,5 +22,6 @@ def findLargest(num1, num2, num3):  #user-defined function
 maximum = findLargest(num1, num2, num3)
 
 # display result
-st.markdown(':blue[**The largest number is: **]')
+
+st.markdown('<h4 style='color:blue;'> The largest number is: </h4>' , unsafe_allow_html=True)
 st.write(maximum)
